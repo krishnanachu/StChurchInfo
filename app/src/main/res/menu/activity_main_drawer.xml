@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_prayers"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Prayers" />
+        <item
+            android:id="@+id/nav_liveVdo"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Live" />
+        <item
+            android:id="@+id/nav_sermons"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Sermons" />
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Noticeboard" />
+        <item
+            android:id="@+id/nav_other"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Others" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_commitee"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Committee" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
