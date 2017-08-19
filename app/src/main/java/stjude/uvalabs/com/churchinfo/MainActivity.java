@@ -160,6 +160,7 @@ public class MainActivity extends AppCompatActivity
                 fragment = new AboutFragment();
                 break;
 
+            
         }
 
         //replacing the fragment
